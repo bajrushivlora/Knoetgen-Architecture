@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+    
+body {
+    background-color: $bkgd-color;
+}
+
+
+.section-footer {
+    padding: 0% 5% 5% 5%;
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    box-sizing: border-box;
+
+    &_border {
+        height: 0.5px;
+        width: 100%;
+        background-color: black;
+        margin-bottom: 5%;
+    }
+
+    &_contact {
+        display: flex;
+        flex-flow: row;
+    }
+
+    &_contact-left {
+        margin-right: 50px;
+    }
+
+    &_contact-left-label, &_contact-right-label {
+        margin-bottom: 15px;
+        font-family: $text-font;
+        color: $text-color;
+        font-size: $text-size;
+        font-weight: 500;
+        letter-spacing: 1px;
+    }
+
+    &_contact-left-name, &_contact-left-email, &_contact-right-location {
+        margin: 5px 0px;
+        font-family: $text-font;
+        color: $text-color;
+        font-size: $text-size;
+    }
+
+}

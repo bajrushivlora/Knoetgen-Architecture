@@ -1,0 +1,20 @@
+{ 
+    "title": "Project Title Here",
+    "description": "Insert some text here.",
+    "contactNumbers":[
+        {
+           "type":"Home",
+           "number":"123 123-123"
+        },
+        {
+           "type":"Office",
+           "number":"321 321-321"
+        }
+     ],
+     "location": "City, State",
+     "civilEngineer": "Name Here",
+     "contractor": "Name Here",
+     "landscapeArchitech": "Name Here",
+     "Photographer": "Name Here",
+     "structuralEngineer": "Name Here"
+}
