@@ -4,136 +4,11 @@
 // 768-480     - tablet 
 // 520-less    - phone landscape & smaller
 
-// @media screen and (min-width: 1280px) and (max-width: 3000px) {
-//     .section-project1, .section-project3, .section-project5, .section-project7 {
-//         padding: $padding;
-    
-//         &_container {
-//             display: flex;
-//             flex-flow: row;
-//             align-items: center;
-//         }
-    
-//         &_container-left {
-//             flex: 3;
-//             width: 50%;
-//             height: auto;
-//         }
-    
-//         &_container-left-photo {
-//             width: 100%;
-//             height: 100%;
-//             background-position: center;
-//             background-size: cover;
-//         }
-    
-//         &_container-right {        
-//             flex: 2;
-//             display: flex;
-//             flex-flow: column;
-//             margin-left: 80px;
-//         }
-    
-//         &_container-right-title {
-//             font-family: $text-font;
-//             color: $text-color;
-//             font-size: 18px;
-//             line-height: 20px;
-//             font-weight: 100;
-//         }
-    
-//         &_container-right-text {
-//             margin: 20px 0px;
-//             font-family: "roboto", sans-serif;
-//             color: #292929;
-//             font-size: 11.5px;
-//             line-height: 20px;
-//             font-weight: 300;
-//             letter-spacing: 0.1px;
-//         }
-    
-//         &_container-right-button-text {
-//             font-family: $text-font;
-//             color: $text-color;
-//             font-size: $text-size;
-//             font-weight: 200;
-//             letter-spacing: 1px;
-//             transition: 0.2s ease-in;
-//             cursor: pointer;
-//             width: max-content;
-//         }
-    
-//         &_container-right-button-text:hover {
-//             font-weight: 700;
-//         }
-//     }
-    
-//     .section-project2, .section-project4, .section-project6, .section-project8 {
-//         padding: $padding;
-    
-//         &_container {
-//             display: flex;
-//             flex-flow: row;
-//             align-items: center;
-//             flex-direction: row-reverse;
-//         }
-    
-//         &_container-left {
-//             flex: 3;
-//             width: 50%;
-//             height: auto;
-//         }
-    
-//         &_container-left-photo {
-//             width: 100%;
-//             height: 100%;
-//             background-position: center;
-//             background-size: cover;
-//         }
-    
-//         &_container-right {
-//             flex: 2;
-//             display: flex;
-//             flex-flow: column;
-//             margin-right: 80px;
-//         }
-    
-//         &_container-right-title {
-//             font-family: $text-font;
-//             color: $text-color;
-//             font-size: 18px;
-//             line-height: 20px;
-//             font-weight: 100;
-//         }
-    
-//         &_container-right-text {
-//             margin: 20px 0px;
-//             font-family: "roboto", sans-serif;
-//             color: #292929;
-//             font-size: 11.5px;
-//             line-height: 20px;
-//             font-weight: 300;
-//             letter-spacing: 0.1px;
-//         }
-    
-//         &_container-right-button-text {
-//             font-family: $text-font;
-//             color: $text-color;
-//             font-size: $text-size;
-//             font-weight: 200;
-//             letter-spacing: 1px;
-//             transition: 0.2s ease-in;
-//             cursor: pointer;
-//             width: max-content;
-//         }
-    
-//         &_container-right-button-text:hover {
-//             font-weight: 700;
-//         }
-//     }
-// }
+
+// @media screen and (min-width: 1280px) and (max-width: 3000px) {}
 
 @media screen and (min-width: 1024px) and (max-width: 1280px) { 
+    
     .section-project1, .section-project3, .section-project5, .section-project7 {
         
         &_container-right {        
@@ -168,6 +43,7 @@
 }
 
 @media screen and (min-width: 768px) and (max-width: 1024px) { 
+
     .section-project1, .section-project3, .section-project5, .section-project7 {
        
         &_container-right {        
@@ -202,6 +78,7 @@
 }
 
 @media screen and (min-width: 520px) and (max-width: 768px) { 
+
     .section-about {
         &_text {
             width: 100%;
@@ -292,12 +169,24 @@
 }
 
 @media screen and(max-width: 520px) { 
+
+    .section-hero {
+        padding: 8% 8% 80px 8%;
+
+        &_name {
+            font-size: 1.2rem;
+            letter-spacing: 6px;
+            text-align: right;
+            line-height: 2rem;
+        }
+    }
+
     .section-about {
         &_text {
             width: 100%;
         }
     }
-    
+
     .section-project1, .section-project3, .section-project5, .section-project7 {
         
         &_container {
