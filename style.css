@@ -2,6 +2,7 @@
   box-sizing: border-box;
   width: 100%;
   height: 100vh;
+  min-height: -webkit-fill-available;
   padding: 8% 8% 80px 8%;
   background-image: url("https://res.cloudinary.com/vlore-studios/image/upload/q_auto:best/v1693266041/Knoetgen%20Architecture/vu-anh-TiVPTYCG_3E-unsplash.jpg");
   background-position: center;
