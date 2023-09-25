@@ -416,8 +416,7 @@ body {
 }
 @media screen and (max-width: 520px) {
   .section-hero {
-    padding: 0% 8% 0% 0%;
-    bottom: 80px;
+    padding: 8% 8% 14% 8%;
   }
   .section-hero_name {
     font-size: 1.2rem;
