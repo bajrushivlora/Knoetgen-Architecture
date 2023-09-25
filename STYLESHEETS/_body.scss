@@ -9,7 +9,7 @@ body {
 
 
 .section-footer {
-    padding: 0% 5% 5% 5%;
+    padding: 0% 8% 8% 8%;
     width: 100%;
     display: flex;
     flex-flow: column;
@@ -19,12 +19,18 @@ body {
         height: 0.5px;
         width: 100%;
         background-color: black;
-        margin-bottom: 5%;
+        margin-bottom: 8%;
     }
 
     &_contact {
         display: flex;
         flex-flow: row;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    &_contact-leftalign {
+        display: flex;
     }
 
     &_contact-left {
@@ -45,6 +51,28 @@ body {
         font-family: $text-font;
         color: $text-color;
         font-size: $text-size;
+    }
+
+    &_contact-socials {
+        display: flex;
+        justify-content: space-between;
+        width: 100px;
+    }
+
+    &_contact-socials-ig, &_contact-socials-fb, &_contact-socials-li  {
+        background: #000000;
+        color: white;
+        padding: 7px;
+        font-size: 14px;
+        width: 14px;
+        text-align: center;
+        text-decoration: none;
+        border-radius: 50%;
+        transition: 0.3s;
+    }
+
+    &_contact-socials-ig, &_contact-socials-fb, &_contact-socials-li:hover {
+        opacity: inherit;
     }
 
 }

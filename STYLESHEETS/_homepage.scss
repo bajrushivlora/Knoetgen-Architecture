@@ -2,38 +2,49 @@
     box-sizing: border-box;
     width: 100%;
     height: 100vh;
-    padding: 5%;
+    padding: $padding;
     background-image: url("https://res.cloudinary.com/vlore-studios/image/upload/q_auto:best/v1693266041/Knoetgen%20Architecture/vu-anh-TiVPTYCG_3E-unsplash.jpg");
     background-position: center;
     background-size: cover;
     display: flex;
-    justify-content: flex-start;
+    justify-content: flex-end;
     align-items: flex-end;
 
     &_name {
-        font-family: $text-font;
+        font-family: $logo-font;
         color: white;
         font-weight: 600;
-        font-size: 1.5rem;
-        letter-spacing: 10px;
+        font-size: 1.3rem;
+        letter-spacing: 8px;
     }
 }
 
 .section-about {
-    padding: 5%;
+    padding: $padding;
     background-color: $section-bkgd-color;
 
-    &_text {
-        width: 65%;
+    &_title {
         font-family: $text-font;
         color: $text-color;
-        font-size: $text-size;
+        font-size: 18px;
         line-height: 20px;
+        font-weight: 100;
+    }
+
+    &_text {
+        margin: 20px 0px;
+        font-family: "roboto", sans-serif;
+        color: #292929;
+        font-size: 11.5px;
+        line-height: 20px;
+        font-weight: 300;
+        letter-spacing: 0.1px;
+        width: 60%;
     }
 }
 
 .section-project1, .section-project3, .section-project5, .section-project7 {
-    padding: 5%;
+    padding: $padding;
 
     &_container {
         display: flex;
@@ -71,23 +82,32 @@
 
     &_container-right-text {
         margin: 20px 0px;
-        font-family: $text-font;
-        color: $text-color;
-        font-size: $text-size;
+        font-family: "roboto", sans-serif;
+        color: #292929;
+        font-size: 11.5px;
         line-height: 20px;
+        font-weight: 300;
+        letter-spacing: 0.1px;
     }
 
-    &_container-right-button {
+    &_container-right-button-text {
         font-family: $text-font;
         color: $text-color;
         font-size: $text-size;
-        font-weight: 500;
+        font-weight: 200;
         letter-spacing: 1px;
+        transition: 0.2s ease-in;
+        cursor: pointer;
+        width: max-content;
+    }
+
+    &_container-right-button-text:hover {
+        font-weight: 700;
     }
 }
 
 .section-project2, .section-project4, .section-project6, .section-project8 {
-    padding: 5%;
+    padding: $padding;
 
     &_container {
         display: flex;
@@ -126,17 +146,26 @@
 
     &_container-right-text {
         margin: 20px 0px;
-        font-family: $text-font;
-        color: $text-color;
-        font-size: $text-size;
+        font-family: "roboto", sans-serif;
+        color: #292929;
+        font-size: 11.5px;
         line-height: 20px;
+        font-weight: 300;
+        letter-spacing: 0.1px;
     }
 
-    &_container-right-button {
+    &_container-right-button-text {
         font-family: $text-font;
         color: $text-color;
         font-size: $text-size;
-        font-weight: 500;
+        font-weight: 200;
         letter-spacing: 1px;
+        transition: 0.2s ease-in;
+        cursor: pointer;
+        width: max-content;
+    }
+
+    &_container-right-button-text:hover {
+        font-weight: 700;
     }
 }
