@@ -255,21 +255,21 @@ body {
   width: 65%;
 }
 
-.section-image1 {
+.section-image1, .section-image3 {
   padding: 8%;
 }
-.section-image1_container-photo {
+.section-image1_container-photo, .section-image3_container-photo {
   width: 100%;
   height: 100%;
   background-position: center;
   background-size: cover;
 }
 
-.section-text1, .section-text2 {
+.section-text1, .section-text2, .section-text3 {
   padding: 8%;
   background-color: white;
 }
-.section-text1_text, .section-text2_text {
+.section-text1_text, .section-text2_text, .section-text3_text {
   margin: 20px 0px;
   font-family: "roboto", sans-serif;
   color: #292929;
@@ -300,6 +300,42 @@ body {
   height: 100%;
   background-position: center;
   background-size: cover;
+}
+
+.section-credits {
+  display: flex;
+  flex-flow: column;
+  width: 400px;
+  padding: 8%;
+}
+.section-credits_header {
+  font-family: "Instrument Sans", sans-serif;
+  color: #292929;
+  font-size: 18px;
+  line-height: 20px;
+  font-weight: 100;
+  width: 100%;
+  margin-bottom: 8%;
+}
+.section-credits_info {
+  display: flex;
+  flex-flow: row;
+}
+.section-credits_info-left {
+  width: 50%;
+  display: flex;
+  flex-flow: column;
+}
+.section-credits_info-left-text {
+  margin: 2px 0px;
+}
+.section-credits_info-right {
+  width: 50%;
+  display: flex;
+  flex-flow: column;
+}
+.section-credits_info-right-text {
+  margin: 2px 0px;
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1280px) {
@@ -397,6 +433,10 @@ body {
     margin: 30px 0px;
   }
 
+  .section-text1_text, .section-text2_text, .section-text3_text, .section-text4_text {
+    width: 100%;
+  }
+
   .section-footer_contact-left {
     margin-right: 40px;
   }
@@ -474,6 +514,24 @@ body {
     margin: 30px 0px;
   }
 
+  .section-text1_text, .section-text2_text, .section-text3_text, .section-text4_text {
+    width: 100%;
+  }
+
+  .section-image2_container {
+    flex-flow: column;
+  }
+  .section-image2_container-photo1 {
+    width: 100%;
+    margin-bottom: 8%;
+  }
+  .section-image2_container-photo2 {
+    width: 100%;
+  }
+
+  .section-footer {
+    padding: 0% 8% 12% 8%;
+  }
   .section-footer_contact {
     display: flex;
     flex-flow: column;

@@ -22,7 +22,7 @@
     }
 }
 
-.section-image1 {
+.section-image1, .section-image3 {
     padding: $padding;
 
     &_container-photo {
@@ -33,7 +33,7 @@
     }
 }
 
-.section-text1, .section-text2 {
+.section-text1, .section-text2, .section-text3 {
     padding: $padding;
     background-color: $section-bkgd-color;
 
@@ -72,4 +72,47 @@
         background-position: center;
         background-size: cover;
     }
+}
+
+.section-credits {
+    display: flex;
+    flex-flow: column;
+    width: 400px;
+    padding: $padding;
+
+    &_header {
+        font-family: $text-font;
+        color: $text-color;
+        font-size: 18px;
+        line-height: 20px;
+        font-weight: 100;
+        width: 100%;
+        margin-bottom: 8%;
+    }
+
+    &_info {
+        display: flex;
+        flex-flow: row;
+    }
+
+    &_info-left {
+        width: 50%;
+        display: flex;
+        flex-flow: column;
+    }
+
+    &_info-left-text {
+        margin: 2px 0px;
+    }
+
+    &_info-right {
+        width: 50%;
+        display: flex;
+        flex-flow: column;
+    }
+
+    &_info-right-text {
+        margin: 2px 0px;
+    }
+
 }

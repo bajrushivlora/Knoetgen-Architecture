@@ -143,6 +143,10 @@
         }
     }
 
+    .section-text1_text, .section-text2_text, .section-text3_text, .section-text4_text {
+        width: 100%;
+    }
+
     .section-footer {
         &_contact-left {
             margin-right: 40px;
@@ -245,7 +249,28 @@
         }
     }
 
+    .section-text1_text, .section-text2_text, .section-text3_text, .section-text4_text {
+        width: 100%;
+    }
+
+    .section-image2 {
+        &_container {
+            flex-flow: column;
+        }
+
+        &_container-photo1 {
+            width: 100%;
+            margin-bottom: 8%
+        }
+
+        &_container-photo2 {
+            width: 100%;
+        }
+    }
+
     .section-footer {
+        padding: 0% 8% 12% 8%;
+
         &_contact {
             display: flex;
             flex-flow: column;
