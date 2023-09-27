@@ -101,18 +101,23 @@
         flex-flow: column;
     }
 
+    &_info-left-heading {
+        font-family: $text-font;
+        color: black;
+        font-size: 12px;
+        line-height: 18px;
+        font-weight: 100;
+        width: 100%;
+    }
+
     &_info-left-text {
         margin: 2px 0px;
-    }
-
-    &_info-right {
-        width: 50%;
-        display: flex;
-        flex-flow: column;
-    }
-
-    &_info-right-text {
-        margin: 2px 0px;
+        font-family: "roboto", sans-serif;
+        color: #292929;
+        font-size: 12px;
+        line-height: 18px;
+        font-weight: 300;
+        margin-bottom: 10px;
     }
 
 }
