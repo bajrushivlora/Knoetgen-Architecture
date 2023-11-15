@@ -1,9 +1,31 @@
 $bkgd-color: #f7f7f7;
 $section-bkgd-color: white;
 
-$logo-font: 'Roboto', sans-serif;
+$logo-font: 'Saira Semi Condensed', sans-serif;
 
-$text-font: 'Instrument Sans', sans-serif;
+
+$heading-size: 20px;
+$heading-line-height: 22px;
+$heading-letter-spacing: 0.1px;
+$heading-font: 'Instrument Sans', sans-serif;
+$heading-color: #292929;
+$heading-weight: 300;
+
+
+$text-size: 15px;
+$text-line-height: 22px;
+$text-letter-spacing: 0.1px;
+$text-font: 'gill-sans-nova', sans-serif;
 $text-color: #292929;
-$text-size: 12px;
+$text-weight: 300;
+
+
+$button-size: 14.5px;
+$button-line-height: 22px;
+$button-letter-spacing: 1px;
+$button-font: 'gill-sans-nova', sans-serif;
+$button-color: #292929;
+$button-weight: 400;
+
+
 $padding: 8%;

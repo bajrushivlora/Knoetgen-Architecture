@@ -1,43 +1,15 @@
-.section-hero {
-  box-sizing: border-box;
-  width: 100%;
-  height: 100vh;
-  min-height: -webkit-fill-available;
-  padding: 8% 8% 80px 8%;
-  background-image: url("");
-  background-position: center;
-  background-size: cover;
-  display: flex;
-  justify-content: flex-end;
-  align-items: flex-end;
-}
-.section-hero_name {
-  font-family: "Roboto", sans-serif;
-  color: white;
-  font-weight: 500;
-  font-size: 1.4rem;
-  letter-spacing: 7px;
-}
-
 .section-about {
   padding: 8%;
   background-color: white;
 }
-.section-about_title {
-  font-family: "Instrument Sans", sans-serif;
-  color: #292929;
-  font-size: 18px;
-  line-height: 20px;
-  font-weight: 100;
-}
 .section-about_text {
   margin: 20px 0px;
-  font-family: "roboto", sans-serif;
+  font-family: "gill-sans-nova", sans-serif;
   color: #292929;
-  font-size: 11.5px;
+  font-size: 15px;
+  letter-spacing: 0.1px;
   line-height: 20px;
   font-weight: 300;
-  letter-spacing: 0.1px;
   width: 60%;
 }
 
@@ -68,37 +40,38 @@
 }
 .section-project1_container-right-title, .section-project3_container-right-title, .section-project5_container-right-title, .section-project7_container-right-title {
   font-family: "Instrument Sans", sans-serif;
-  color: #292929;
-  font-size: 18px;
-  line-height: 20px;
-  font-weight: 100;
-}
-.section-project1_container-right-text, .section-project3_container-right-text, .section-project5_container-right-text, .section-project7_container-right-text {
-  margin: 20px 0px;
-  font-family: "roboto", sans-serif;
-  color: #292929;
-  font-size: 11.5px;
+  color: "Instrument Sans", sans-serif;
+  font-size: 20px;
+  letter-spacing: 0.1px;
   line-height: 20px;
   font-weight: 300;
+}
+.section-project1_container-right-text, .section-project3_container-right-text, .section-project5_container-right-text, .section-project7_container-right-text {
+  margin: 25px 0px;
+  font-family: "gill-sans-nova", sans-serif;
+  color: #292929;
+  font-size: 15px;
   letter-spacing: 0.1px;
+  line-height: 22px;
+  font-weight: 300;
 }
 .section-project1_container-right-button-text, .section-project3_container-right-button-text, .section-project5_container-right-button-text, .section-project7_container-right-button-text {
   text-decoration: none;
-  font-family: "Instrument Sans", sans-serif;
+  font-family: "gill-sans-nova", sans-serif;
   color: #292929;
-  font-size: 12px;
-  font-weight: 200;
+  font-size: 14.5px;
+  font-weight: 400;
   letter-spacing: 1px;
-  transition: 0.2s ease-in;
+  transition: 0.1s ease-in-out;
   cursor: pointer;
   width: max-content;
 }
 .section-project1_container-right-button, .section-project1_container-right-button:visited, .section-project3_container-right-button, .section-project3_container-right-button:visited, .section-project5_container-right-button, .section-project5_container-right-button:visited, .section-project7_container-right-button, .section-project7_container-right-button:visited {
   text-decoration: none;
-  color: black;
+  color: #292929;
 }
 .section-project1_container-right-button-text:hover, .section-project3_container-right-button-text:hover, .section-project5_container-right-button-text:hover, .section-project7_container-right-button-text:hover {
-  font-weight: 700;
+  font-weight: 600;
 }
 
 .section-project2, .section-project4, .section-project6, .section-project8 {
@@ -129,40 +102,38 @@
 }
 .section-project2_container-right-title, .section-project4_container-right-title, .section-project6_container-right-title, .section-project8_container-right-title {
   font-family: "Instrument Sans", sans-serif;
-  color: #292929;
-  font-size: 18px;
+  color: "Instrument Sans", sans-serif;
+  font-size: 20px;
+  letter-spacing: 0.1px;
   line-height: 20px;
   font-weight: 100;
 }
 .section-project2_container-right-text, .section-project4_container-right-text, .section-project6_container-right-text, .section-project8_container-right-text {
-  margin: 20px 0px;
-  font-family: "roboto", sans-serif;
+  margin: 25px 0px;
+  font-family: "gill-sans-nova", sans-serif;
   color: #292929;
-  font-size: 11.5px;
-  line-height: 20px;
-  font-weight: 300;
+  font-size: 15px;
   letter-spacing: 0.1px;
+  line-height: 22px;
+  font-weight: 300;
 }
 .section-project2_container-right-button-text, .section-project4_container-right-button-text, .section-project6_container-right-button-text, .section-project8_container-right-button-text {
   text-decoration: none;
-  font-family: "Instrument Sans", sans-serif;
+  font-family: "gill-sans-nova", sans-serif;
   color: #292929;
-  font-size: 12px;
-  font-weight: 200;
+  font-size: 14.5px;
   letter-spacing: 1px;
-  transition: 0.2s ease-in;
+  font-weight: 400;
+  transition: 0.1s ease-in-out;
   cursor: pointer;
   width: max-content;
 }
 .section-project2_container-right-button-text:hover, .section-project4_container-right-button-text:hover, .section-project6_container-right-button-text:hover, .section-project8_container-right-button-text:hover {
-  font-weight: 700;
+  font-weight: 500;
 }
 .section-project2_container-right-button, .section-project2_container-right-button:visited, .section-project4_container-right-button, .section-project4_container-right-button:visited, .section-project6_container-right-button, .section-project6_container-right-button:visited, .section-project8_container-right-button, .section-project8_container-right-button:visited {
   text-decoration: none;
-  color: black;
-}
-.section-project2_container-right-button-text:hover, .section-project4_container-right-button-text:hover, .section-project6_container-right-button-text:hover, .section-project8_container-right-button-text:hover {
-  font-weight: 700;
+  color: #292929;
 }
 
 * {
@@ -172,6 +143,71 @@
 
 body {
   background-color: #f7f7f7;
+}
+
+.section-hero {
+  box-sizing: border-box;
+  width: 100%;
+  height: 100vh;
+  min-height: -webkit-fill-available;
+  padding: 8% 8% 80px 8%;
+  background-image: url("");
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+.section-hero_menubutton {
+  display: inline-block;
+  cursor: pointer;
+  position: absolute;
+  top: 5%;
+  right: 5%;
+}
+.section-hero_menubutton-bar1, .section-hero_menubutton-bar2, .section-hero_menubutton-bar3 {
+  width: 35px;
+  height: 4px;
+  background-color: white;
+  margin: 0px 0px 7px 0px;
+  transition: 0.4s;
+}
+.change .section-hero_menubutton-bar1 {
+  transform: translate(0, 11px) rotate(-45deg);
+}
+.change .section-hero_menubutton-bar2 {
+  opacity: 0;
+}
+.change .section-hero_menubutton-bar3 {
+  transform: translate(0, -11px) rotate(45deg);
+}
+.section-hero_name {
+  font-family: "Saira Semi Condensed", sans-serif;
+  color: white;
+  font-weight: 600;
+  font-size: 1.8rem;
+  letter-spacing: 7px;
+}
+
+.modal {
+  display: none;
+  /* Hidden by default */
+  position: fixed;
+  /* Stay in place */
+  z-index: 1;
+  /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%;
+  /* Full width */
+  height: 100%;
+  /* Full height */
+  overflow: auto;
+  /* Enable scroll if needed */
+  background-color: black;
+  /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4);
+  /* Black w/ opacity */
 }
 
 .section-footer {
@@ -200,18 +236,20 @@ body {
   margin-right: 50px;
 }
 .section-footer_contact-left-label, .section-footer_contact-right-label {
-  margin-bottom: 15px;
-  font-family: "Instrument Sans", sans-serif;
+  margin-bottom: 16px;
+  font-family: "gill-sans-nova", sans-serif;
   color: #292929;
-  font-size: 12px;
+  font-size: 15px;
+  letter-spacing: 0.1px;
   font-weight: 500;
   letter-spacing: 1px;
 }
 .section-footer_contact-left-name, .section-footer_contact-left-email, .section-footer_contact-right-location {
   margin: 5px 0px;
-  font-family: "Instrument Sans", sans-serif;
+  font-family: "gill-sans-nova", sans-serif;
+  letter-spacing: 0.1px;
   color: #292929;
-  font-size: 12px;
+  font-size: 15px;
 }
 .section-footer_contact-socials {
   display: flex;
@@ -239,20 +277,20 @@ body {
 }
 .section-about_title {
   font-family: "Instrument Sans", sans-serif;
-  color: #292929;
-  font-size: 18px;
+  color: "Instrument Sans", sans-serif;
+  font-size: 20px;
+  letter-spacing: 0.1px;
   line-height: 20px;
-  font-weight: 100;
+  font-weight: 300;
 }
 .section-about_text {
   margin: 20px 0px;
-  font-family: "roboto", sans-serif;
-  color: #292929;
-  font-size: 11.5px;
-  line-height: 20px;
-  font-weight: 300;
+  font-family: "gill-sans-nova", sans-serif;
+  color: "gill-sans-nova", sans-serif;
+  font-size: 15px;
   letter-spacing: 0.1px;
-  width: 65%;
+  line-height: 22px;
+  width: 60%;
 }
 
 .section-image1, .section-image3 {
@@ -271,10 +309,10 @@ body {
 }
 .section-text1_text, .section-text2_text, .section-text3_text {
   margin: 20px 0px;
-  font-family: "roboto", sans-serif;
+  font-family: "gill-sans-nova", sans-serif;
   color: #292929;
-  font-size: 11.5px;
-  line-height: 20px;
+  font-size: 15px;
+  line-height: 22px;
   font-weight: 300;
   letter-spacing: 0.1px;
   width: 60%;
@@ -306,14 +344,14 @@ body {
   display: flex;
   flex-flow: column;
   width: 400px;
-  padding: 8%;
+  padding: 0% 8% 8% 8%;
 }
 .section-credits_header {
-  font-family: "Instrument Sans", sans-serif;
+  font-family: "gill-sans-nova", sans-serif;
   color: #292929;
   font-size: 18px;
   line-height: 20px;
-  font-weight: 100;
+  font-weight: 300;
   width: 100%;
   margin-bottom: 8%;
 }
@@ -327,21 +365,22 @@ body {
   flex-flow: column;
 }
 .section-credits_info-left-heading {
-  font-family: "Instrument Sans", sans-serif;
-  color: black;
-  font-size: 12px;
+  font-family: "gill-sans-nova", sans-serif;
+  color: grey;
+  font-size: 15px;
   line-height: 18px;
-  font-weight: 100;
+  font-weight: 300;
   width: 100%;
 }
 .section-credits_info-left-text {
-  margin: 2px 0px;
-  font-family: "roboto", sans-serif;
+  margin: 4px 0px;
+  font-family: "gill-sans-nova", sans-serif;
   color: #292929;
-  font-size: 12px;
-  line-height: 18px;
+  font-size: 18px;
+  line-height: 22px;
   font-weight: 300;
-  margin-bottom: 10px;
+  letter-spacing: 0.1px;
+  margin-bottom: 20px;
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1280px) {
@@ -349,22 +388,22 @@ body {
     margin-left: 60px;
   }
   .section-project1_container-right-title, .section-project3_container-right-title, .section-project5_container-right-title, .section-project7_container-right-title {
-    font-size: 16px;
+    font-size: 20px;
   }
   .section-project1_container-right-text, .section-project3_container-right-text, .section-project5_container-right-text, .section-project7_container-right-text {
-    font-size: 10.5px;
-    line-height: 19px;
+    font-size: 14.5px;
+    line-height: 21px;
   }
 
   .section-project2_container-right, .section-project4_container-right, .section-project6_container-right, .section-project8_container-right {
     margin-right: 60px;
   }
   .section-project2_container-right-title, .section-project4_container-right-title, .section-project6_container-right-title, .section-project8_container-right-title {
-    font-size: 16px;
+    font-size: 20px;
   }
   .section-project2_container-right-text, .section-project4_container-right-text, .section-project6_container-right-text, .section-project8_container-right-text {
-    font-size: 10.5px;
-    line-height: 19px;
+    font-size: 14.5px;
+    line-height: 21px;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1024px) {
@@ -372,22 +411,27 @@ body {
     margin-left: 60px;
   }
   .section-project1_container-right-title, .section-project3_container-right-title, .section-project5_container-right-title, .section-project7_container-right-title {
-    font-size: 16px;
+    font-size: 18px;
   }
   .section-project1_container-right-text, .section-project3_container-right-text, .section-project5_container-right-text, .section-project7_container-right-text {
-    font-size: 10.5px;
-    line-height: 19px;
+    font-size: 14px;
+    line-height: 21px;
   }
 
   .section-project2_container-right, .section-project4_container-right, .section-project6_container-right, .section-project8_container-right {
     margin-right: 60px;
   }
   .section-project2_container-right-title, .section-project4_container-right-title, .section-project6_container-right-title, .section-project8_container-right-title {
-    font-size: 16px;
+    font-size: 18px;
   }
   .section-project2_container-right-text, .section-project4_container-right-text, .section-project6_container-right-text, .section-project8_container-right-text {
-    font-size: 10.5px;
-    line-height: 19px;
+    font-size: 14px;
+    line-height: 21px;
+  }
+
+  .section-text1_text, .section-text2_text, .section-text3_text, .section-text4_text {
+    width: 100%;
+    line-height: 23px;
   }
 }
 @media screen and (min-width: 520px) and (max-width: 768px) {
@@ -409,11 +453,11 @@ body {
     margin-left: 0px;
   }
   .section-project1_container-right-title, .section-project3_container-right-title, .section-project5_container-right-title, .section-project7_container-right-title {
-    font-size: 18px;
+    font-size: 20px;
   }
   .section-project1_container-right-text, .section-project3_container-right-text, .section-project5_container-right-text, .section-project7_container-right-text {
-    font-size: 11.5px;
-    line-height: 20px;
+    font-size: 15px;
+    line-height: 23px;
     margin: 30px 0px;
   }
 
@@ -434,31 +478,33 @@ body {
     font-size: 18px;
   }
   .section-project2_container-right-text, .section-project4_container-right-text, .section-project6_container-right-text, .section-project8_container-right-text {
-    font-size: 11.5px;
-    line-height: 20px;
+    font-size: 15px;
+    line-height: 23px;
     margin: 30px 0px;
   }
 
   .section-text1_text, .section-text2_text, .section-text3_text, .section-text4_text {
     width: 100%;
+    font-size: 15px;
+    line-height: 23px;
   }
 
   .section-footer_contact-left {
     margin-right: 40px;
   }
   .section-footer_contact-left-label, .section-footer_contact-right-label {
-    font-size: 11px;
+    font-size: 14px;
   }
   .section-footer_contact-left-name, .section-footer_contact-left-email, .section-footer_contact-right-location {
-    font-size: 11px;
+    font-size: 14px;
   }
   .section-footer_contact-socials {
     width: 90px;
   }
   .section-footer_contact-socials-ig, .section-footer_contact-socials-fb, .section-footer_contact-socials-li {
     padding: 6px;
-    font-size: 12px;
-    width: 12px;
+    font-size: 14px;
+    width: 14px;
   }
 }
 @media screen and (max-width: 520px) {
@@ -493,8 +539,8 @@ body {
     font-size: 18px;
   }
   .section-project1_container-right-text, .section-project3_container-right-text, .section-project5_container-right-text, .section-project7_container-right-text {
-    font-size: 11.5px;
-    line-height: 20px;
+    font-size: 14px;
+    line-height: 22px;
     margin: 30px 0px;
   }
 
@@ -515,13 +561,15 @@ body {
     font-size: 18px;
   }
   .section-project2_container-right-text, .section-project4_container-right-text, .section-project6_container-right-text, .section-project8_container-right-text {
-    font-size: 11.5px;
-    line-height: 20px;
+    font-size: 14px;
+    line-height: 22px;
     margin: 30px 0px;
   }
 
   .section-text1_text, .section-text2_text, .section-text3_text, .section-text4_text {
     width: 100%;
+    font-size: 14px;
+    line-height: 22px;
   }
 
   .section-image2_container {
@@ -559,7 +607,7 @@ body {
     font-size: 12px;
   }
   .section-footer_contact-left-name, .section-footer_contact-left-email, .section-footer_contact-right-location {
-    font-size: 12px;
+    font-size: 14px;
   }
   .section-footer_contact-socials {
     width: 90px;
@@ -567,8 +615,8 @@ body {
   }
   .section-footer_contact-socials-ig, .section-footer_contact-socials-fb, .section-footer_contact-socials-li {
     padding: 6px;
-    font-size: 12px;
-    width: 12px;
+    font-size: 14px;
+    width: 14px;
   }
 }
 

@@ -1,45 +1,15 @@
-.section-hero {
-    box-sizing: border-box;
-    width: 100%;
-    height: 100vh;
-    min-height: -webkit-fill-available;
-    padding: 8% 8% 80px 8%;
-    background-image: url("");
-    background-position: center;
-    background-size: cover;
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
-
-    &_name {
-        font-family: $logo-font;
-        color: white;
-        font-weight: 500;
-        font-size: 1.4rem;
-        letter-spacing: 7px;
-    }
-}
-
 .section-about {
     padding: $padding;
     background-color: $section-bkgd-color;
 
-    &_title {
-        font-family: $text-font;
-        color: $text-color;
-        font-size: 18px;
-        line-height: 20px;
-        font-weight: 100;
-    }
-
     &_text {
         margin: 20px 0px;
-        font-family: "roboto", sans-serif;
-        color: #292929;
-        font-size: 11.5px;
+        font-family: $text-font;
+        color: $text-color;
+        font-size: $text-size;
+        letter-spacing: $text-letter-spacing;
         line-height: 20px;
-        font-weight: 300;
-        letter-spacing: 0.1px;
+        font-weight: $text-weight;
         width: 60%;
     }
 }
@@ -74,42 +44,43 @@
     }
 
     &_container-right-title {
-        font-family: $text-font;
-        color: $text-color;
-        font-size: 18px;
+        font-family: $heading-font;
+        color: $heading-font;
+        font-size: $heading-size;
+        letter-spacing: $heading-letter-spacing;
         line-height: 20px;
-        font-weight: 100;
+        font-weight: $heading-weight;
     }
 
     &_container-right-text {
-        margin: 20px 0px;
-        font-family: "roboto", sans-serif;
-        color: #292929;
-        font-size: 11.5px;
-        line-height: 20px;
-        font-weight: 300;
-        letter-spacing: 0.1px;
+        margin: 25px 0px;
+        font-family: $text-font;
+        color: $text-color;
+        font-size: $text-size;
+        letter-spacing: $text-letter-spacing;
+        line-height: $text-line-height;
+        font-weight: $text-weight;
     }
 
     &_container-right-button-text {
         text-decoration: none;
-        font-family: $text-font;
-        color: $text-color;
-        font-size: $text-size;
-        font-weight: 200;
+        font-family: $button-font;
+        color: $button-color;
+        font-size: $button-size;
+        font-weight: $button-weight;
         letter-spacing: 1px;
-        transition: 0.2s ease-in;
+        transition: 0.1s ease-in-out;
         cursor: pointer;
         width: max-content;
     }
 
     &_container-right-button, &_container-right-button:visited{
         text-decoration: none;
-        color: black;
+        color: $button-color;
     }
 
     &_container-right-button-text:hover {
-        font-weight: 700;
+        font-weight: 600;
     }
 }
 
@@ -144,45 +115,42 @@
     }
 
     &_container-right-title {
-        font-family: $text-font;
-        color: $text-color;
-        font-size: 18px;
+        font-family: $heading-font;
+        color: $heading-font;
+        font-size: $heading-size;
+        letter-spacing: $heading-letter-spacing;
         line-height: 20px;
         font-weight: 100;
     }
 
     &_container-right-text {
-        margin: 20px 0px;
-        font-family: "roboto", sans-serif;
-        color: #292929;
-        font-size: 11.5px;
-        line-height: 20px;
-        font-weight: 300;
-        letter-spacing: 0.1px;
+        margin: 25px 0px;
+        font-family: $text-font;
+        color: $text-color;
+        font-size: $text-size;
+        letter-spacing: $text-letter-spacing;
+        line-height: $text-line-height;
+        font-weight: $text-weight;
     }
 
     &_container-right-button-text {
         text-decoration: none;
-        font-family: $text-font;
-        color: $text-color;
-        font-size: $text-size;
-        font-weight: 200;
-        letter-spacing: 1px;
-        transition: 0.2s ease-in;
+        font-family: $button-font;
+        color: $button-color;
+        font-size: $button-size;
+        letter-spacing: $button-letter-spacing;
+        font-weight: $button-weight;
+        transition: 0.1s ease-in-out;
         cursor: pointer;
         width: max-content;
     }
 
     &_container-right-button-text:hover {
-        font-weight: 700;
+        font-weight: 500;
     }
 
     &_container-right-button, &_container-right-button:visited{
         text-decoration: none;
-        color: black;
-    }
-
-    &_container-right-button-text:hover {
-        font-weight: 700;
+        color: $button-color;
     }
 }

@@ -10,13 +10,28 @@
         <meta name="viewport" content="width=device-width,height=device-height, initial-scale=1, user-scalable=no">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Red+Hat+Display:wght@300;400;500;600;700;800;900&display=swap&family=Roboto:wght@100;300;400;500&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Saira+Semi+Condensed:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://use.typekit.net/ogc2ozb.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="style.css">
     </head>
 
     <body class="body" id="homepage">
         <section class="section-hero" id="section-hero">
+            <div class="section-hero_menubutton" onclick="myFunction(this)">
+                <div class="section-hero_menubutton-bar1"></div>
+                <div class="section-hero_menubutton-bar2"></div>
+                <div class="section-hero_menubutton-bar3"></div>
+            </div>
+            <div id="myModal" class="modal">
+
+                <!-- Modal content -->
+                <div class="modal-content">
+                  <span class="close">&times;</span>
+                  <p>Some text in the Modal..</p>
+                </div>
+              
+              </div>
             <p class="section-hero_name">KNOETGEN ARCHITECTURE</p>
         </section>
 
@@ -163,5 +178,10 @@
         </section>
 
         <script type="text/javascript" src="JS/scripts.js"></script>
+        <script>
+            function myFunction(x) {
+              x.classList.toggle("change");
+            }
+        </script>
     </body>
 </html>

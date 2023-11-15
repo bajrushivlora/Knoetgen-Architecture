@@ -3,22 +3,22 @@
     background-color: $section-bkgd-color;
 
     &_title {
-        font-family: $text-font;
-        color: $text-color;
-        font-size: 18px;
+        font-family: $heading-font;
+        color: $heading-font;
+        font-size: $heading-size;
+        letter-spacing: $heading-letter-spacing;
         line-height: 20px;
-        font-weight: 100;
+        font-weight: $heading-weight;
     }
 
     &_text {
         margin: 20px 0px;
-        font-family: "roboto", sans-serif;
-        color: #292929;
-        font-size: 11.5px;
-        line-height: 20px;
-        font-weight: 300;
-        letter-spacing: 0.1px;
-        width: 65%;
+        font-family: $text-font;
+        color: $text-font;
+        font-size: $text-size;
+        letter-spacing: $text-letter-spacing;
+        line-height: $text-line-height;
+        width: 60%;
     }
 }
 
@@ -39,12 +39,12 @@
 
     &_text {
         margin: 20px 0px;
-        font-family: "roboto", sans-serif;
-        color: #292929;
-        font-size: 11.5px;
-        line-height: 20px;
-        font-weight: 300;
-        letter-spacing: 0.1px;
+        font-family: $text-font;
+        color: $text-color;
+        font-size: $text-size;
+        line-height: $text-line-height;
+        font-weight: $text-weight;
+        letter-spacing: $text-letter-spacing;
         width: 60%;
     }
 } 
@@ -78,14 +78,14 @@
     display: flex;
     flex-flow: column;
     width: 400px;
-    padding: $padding;
+    padding: 0% 8% 8% 8%;
 
     &_header {
         font-family: $text-font;
         color: $text-color;
         font-size: 18px;
         line-height: 20px;
-        font-weight: 100;
+        font-weight: $heading-weight;
         width: 100%;
         margin-bottom: 8%;
     }
@@ -103,21 +103,22 @@
 
     &_info-left-heading {
         font-family: $text-font;
-        color: black;
-        font-size: 12px;
+        color: grey;
+        font-size: 15px;
         line-height: 18px;
-        font-weight: 100;
+        font-weight: 300;
         width: 100%;
     }
 
     &_info-left-text {
-        margin: 2px 0px;
-        font-family: "roboto", sans-serif;
-        color: #292929;
-        font-size: 12px;
-        line-height: 18px;
-        font-weight: 300;
-        margin-bottom: 10px;
+        margin: 4px 0px;
+        font-family: $text-font;
+        color: $text-color;
+        font-size: 18px;
+        line-height: $text-line-height;
+        font-weight: $text-weight;
+        letter-spacing: $text-letter-spacing;
+        margin-bottom: 20px;
     }
 
 }
